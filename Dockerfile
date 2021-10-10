@@ -1,5 +1,5 @@
 # dev, builder
-FROM golang:1.16 AS golang
+FROM --platform=linux/amd64 golang:1.16 AS golang
 WORKDIR /work/yatter-backend-go
 
 # dev
